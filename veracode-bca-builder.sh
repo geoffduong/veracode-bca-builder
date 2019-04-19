@@ -31,4 +31,4 @@ rmdir ${PROJECT}.xcarchive/Products/
 
 # ZIP ALL FILES IN XCODE ARCHIVE
 cd ${PROJECT}.xcarchive
-zip -r ${OUTPUT_LOCATION}/${PROJECT}.bca $(ls)
+zip -r ${OUTPUT_LOCATION}/${SCHEME}.bca $(ls)
