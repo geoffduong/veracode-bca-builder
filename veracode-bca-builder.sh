@@ -32,6 +32,7 @@ else
 fi
 
 # MOVE APPLICATIONS DIRECTORY OUT OF PRODUCTS AND UP TO PARENT
+echo ${PROJECT}
 mv ${PROJECT}.xcarchive/Products/Applications/ ${PROJECT}.xcarchive/Payload/
 
 # REMOVE THE PRODUCTS DIRECTORY
